@@ -1,0 +1,405 @@
+{
+  "rows_file": 23490,
+  "n_rated": 23486,
+  "n_docs": 22641,
+  "avg_rating": 4.18,
+  "recommend_share": 81.9,
+  "n_negative": 2370,
+  "n_neutral": 2823,
+  "n_positive": 17448,
+  "rating_share": {
+    "5": 55.4,
+    "4": 21.7,
+    "3": 12.5,
+    "2": 6.8,
+    "1": 3.6
+  },
+  "recommend_by_rating": {
+    "1": 1.8,
+    "2": 6.1,
+    "3": 41.4,
+    "4": 96.7,
+    "5": 99.8
+  },
+  "total_tokens": 1355340,
+  "vocabulary": 14219,
+  "avg_words": 60.1,
+  "avg_word_len": 4.03,
+  "avg_flesch": 81.8,
+  "words_by_rating": {
+    "1": 58.5,
+    "2": 61.9,
+    "3": 64.1,
+    "4": 63.2,
+    "5": 57.8
+  },
+  "sizing": {
+    "runs small": 3.1,
+    "runs large": 5.7,
+    "size up": 3.9,
+    "size down": 4.7,
+    "too small / tight": 2.9,
+    "too big / large": 4.3,
+    "true to size": 8.4
+  },
+  "size_mismatch_share": 20.3,
+  "size_mismatch_share_pos": 19.3,
+  "neg_terms": {
+    "poor quality": 48.2,
+    "poor": 38.5,
+    "not worth": 17.3,
+    "unflattering": 16.5,
+    "cheap": 15.9,
+    "not flattering": 11.3,
+    "shapeless": 8.8,
+    "huge": 7.9,
+    "way too": 7.8,
+    "made look": 7.8,
+    "sack": 7.2,
+    "much fabric": 6.8
+  },
+  "pos_terms": {
+    "dressed": 19.1,
+    "dressed up": 17.7,
+    "fits perfectly": 16.2,
+    "versatile": 14.4,
+    "heels": 10.3,
+    "very comfortable": 9.3,
+    "dress up": 8.7,
+    "stylish": 8.3,
+    "boots": 7.8,
+    "up down": 7.4,
+    "not too": 7.3,
+    "feminine": 6.0
+  },
+  "neg_terms_share": {
+    "poor quality": {
+      "neg %": 3.0,
+      "pos %": 0.1
+    },
+    "poor": {
+      "neg %": 5.5,
+      "pos %": 0.1
+    },
+    "not worth": {
+      "neg %": 2.6,
+      "pos %": 0.1
+    },
+    "unflattering": {
+      "neg %": 7.3,
+      "pos %": 0.4
+    },
+    "cheap": {
+      "neg %": 6.8,
+      "pos %": 0.4
+    },
+    "not flattering": {
+      "neg %": 6.1,
+      "pos %": 0.5
+    },
+    "shapeless": {
+      "neg %": 2.4,
+      "pos %": 0.3
+    },
+    "huge": {
+      "neg %": 9.3,
+      "pos %": 1.2
+    },
+    "way too": {
+      "neg %": 5.7,
+      "pos %": 0.7
+    },
+    "made look": {
+      "neg %": 3.2,
+      "pos %": 0.4
+    },
+    "sack": {
+      "neg %": 2.2,
+      "pos %": 0.3
+    },
+    "much fabric": {
+      "neg %": 2.5,
+      "pos %": 0.4
+    }
+  },
+  "vader_by_rating": {
+    "1": 0.19,
+    "2": 0.4,
+    "3": 0.58,
+    "4": 0.81,
+    "5": 0.9
+  },
+  "vader_corr": 0.45,
+  "vader_pos_in_neg": 69.6,
+  "topics": [
+    {
+      "topic_name": "Unflattering cut & shape",
+      "reviews": 1241,
+      "avg_rating": 2.46,
+      "recommend": 21.5,
+      "share": 23.9,
+      "top words": "fit, fabric, flattering, waist, work, made"
+    },
+    {
+      "topic_name": "Sizing: runs small / large",
+      "reviews": 1055,
+      "avg_rating": 2.5,
+      "recommend": 36.6,
+      "share": 20.3,
+      "top words": "size, small, large, fit, run, big"
+    },
+    {
+      "topic_name": "See-through / differs from photo",
+      "reviews": 655,
+      "avg_rating": 2.3,
+      "recommend": 19.2,
+      "share": 12.6,
+      "top words": "skirt, color, see, material, fabric, picture"
+    },
+    {
+      "topic_name": "Cheap fabric for the price",
+      "reviews": 585,
+      "avg_rating": 2.38,
+      "recommend": 24.1,
+      "share": 11.3,
+      "top words": "fabric, quality, material, price, thin, design"
+    },
+    {
+      "topic_name": "Workmanship: buttons, zips, seams",
+      "reviews": 555,
+      "avg_rating": 2.27,
+      "recommend": 18.4,
+      "share": 10.7,
+      "top words": "arm, back, button, hole, zipper, quality"
+    },
+    {
+      "topic_name": "Sweaters: boxy, shrinks in the wash",
+      "reviews": 452,
+      "avg_rating": 2.1,
+      "recommend": 11.3,
+      "share": 8.7,
+      "top words": "sweater, looked, back, color, online, boxy"
+    },
+    {
+      "topic_name": "Pants & jeans fit",
+      "reviews": 359,
+      "avg_rating": 2.35,
+      "recommend": 27.9,
+      "share": 6.9,
+      "top words": "pant, color, jean, fit, pair, white"
+    },
+    {
+      "topic_name": "Length & proportions",
+      "reviews": 291,
+      "avg_rating": 2.58,
+      "recommend": 36.4,
+      "share": 5.6,
+      "top words": "short, length, long, petite, shorter, longer"
+    }
+  ],
+  "dept_topic": {
+    "Bottoms (n=724)": {
+      "Unflattering cut & shape": 19.6,
+      "Sizing: runs small / large": 20.9,
+      "See-through / differs from photo": 11.5,
+      "Cheap fabric for the price": 6.8,
+      "Workmanship: buttons, zips, seams": 7.5,
+      "Sweaters: boxy, shrinks in the wash": 3.3,
+      "Pants & jeans fit": 23.8,
+      "Length & proportions": 6.8
+    },
+    "Dresses (n=1,511)": {
+      "Unflattering cut & shape": 29.3,
+      "Sizing: runs small / large": 22.4,
+      "See-through / differs from photo": 12.6,
+      "Cheap fabric for the price": 10.7,
+      "Workmanship: buttons, zips, seams": 9.5,
+      "Sweaters: boxy, shrinks in the wash": 7.0,
+      "Pants & jeans fit": 3.1,
+      "Length & proportions": 5.4
+    },
+    "Intimate (n=324)": {
+      "Unflattering cut & shape": 16.4,
+      "Sizing: runs small / large": 24.1,
+      "See-through / differs from photo": 13.3,
+      "Cheap fabric for the price": 14.2,
+      "Workmanship: buttons, zips, seams": 15.4,
+      "Sweaters: boxy, shrinks in the wash": 3.7,
+      "Pants & jeans fit": 7.1,
+      "Length & proportions": 5.9
+    },
+    "Jackets (n=198)": {
+      "Unflattering cut & shape": 15.2,
+      "Sizing: runs small / large": 22.2,
+      "See-through / differs from photo": 10.1,
+      "Cheap fabric for the price": 14.6,
+      "Workmanship: buttons, zips, seams": 16.7,
+      "Sweaters: boxy, shrinks in the wash": 13.1,
+      "Pants & jeans fit": 3.5,
+      "Length & proportions": 4.5
+    },
+    "Tops (n=2,396)": {
+      "Unflattering cut & shape": 23.6,
+      "Sizing: runs small / large": 18.1,
+      "See-through / differs from photo": 13.1,
+      "Cheap fabric for the price": 12.3,
+      "Workmanship: buttons, zips, seams": 11.4,
+      "Sweaters: boxy, shrinks in the wash": 11.7,
+      "Pants & jeans fit": 4.5,
+      "Length & proportions": 5.5
+    },
+    "Trend (n=40)": {
+      "Unflattering cut & shape": 20.0,
+      "Sizing: runs small / large": 25.0,
+      "See-through / differs from photo": 15.0,
+      "Cheap fabric for the price": 15.0,
+      "Workmanship: buttons, zips, seams": 2.5,
+      "Sweaters: boxy, shrinks in the wash": 10.0,
+      "Pants & jeans fit": 7.5,
+      "Length & proportions": 5.0
+    }
+  },
+  "departments": [
+    {
+      "Department Name": "Tops",
+      "reviews": 10048,
+      "avg_rating": 4.16,
+      "negative": 10.91,
+      "recommend": 81.07
+    },
+    {
+      "Department Name": "Dresses",
+      "reviews": 6145,
+      "avg_rating": 4.14,
+      "negative": 11.08,
+      "recommend": 80.52
+    },
+    {
+      "Department Name": "Bottoms",
+      "reviews": 3662,
+      "avg_rating": 4.28,
+      "negative": 8.66,
+      "recommend": 84.95
+    },
+    {
+      "Department Name": "Intimate",
+      "reviews": 1653,
+      "avg_rating": 4.27,
+      "negative": 8.89,
+      "recommend": 84.63
+    },
+    {
+      "Department Name": "Jackets",
+      "reviews": 1002,
+      "avg_rating": 4.25,
+      "negative": 10.78,
+      "recommend": 83.33
+    },
+    {
+      "Department Name": "Trend",
+      "reviews": 118,
+      "avg_rating": 3.84,
+      "negative": 17.8,
+      "recommend": 74.58
+    }
+  ],
+  "age": [
+    {
+      "age_group": "18-29",
+      "reviews": 2839,
+      "avg_rating": 4.19,
+      "negative": 9.58,
+      "recommend": 81.37,
+      "vader": 0.79,
+      "share": 12.5
+    },
+    {
+      "age_group": "30-39",
+      "reviews": 7346,
+      "avg_rating": 4.15,
+      "negative": 10.88,
+      "recommend": 80.86,
+      "vader": 0.78,
+      "share": 32.4
+    },
+    {
+      "age_group": "40-49",
+      "reviews": 5903,
+      "avg_rating": 4.14,
+      "negative": 11.33,
+      "recommend": 80.82,
+      "vader": 0.77,
+      "share": 26.1
+    },
+    {
+      "age_group": "50-59",
+      "reviews": 3834,
+      "avg_rating": 4.23,
+      "negative": 9.83,
+      "recommend": 83.57,
+      "vader": 0.78,
+      "share": 16.9
+    },
+    {
+      "age_group": "60+",
+      "reviews": 2719,
+      "avg_rating": 4.29,
+      "negative": 9.3,
+      "recommend": 85.14,
+      "vader": 0.79,
+      "share": 12.0
+    }
+  ],
+  "age_topic": {
+    "18-29": {
+      "Unflattering cut & shape": 25.9,
+      "Sizing: runs small / large": 19.5,
+      "See-through / differs from photo": 13.5,
+      "Cheap fabric for the price": 12.6,
+      "Workmanship: buttons, zips, seams": 12.0,
+      "Sweaters: boxy, shrinks in the wash": 7.1,
+      "Pants & jeans fit": 5.0,
+      "Length & proportions": 4.4
+    },
+    "30-39": {
+      "Unflattering cut & shape": 24.7,
+      "Sizing: runs small / large": 20.6,
+      "See-through / differs from photo": 12.1,
+      "Cheap fabric for the price": 11.0,
+      "Workmanship: buttons, zips, seams": 10.6,
+      "Sweaters: boxy, shrinks in the wash": 8.5,
+      "Pants & jeans fit": 6.1,
+      "Length & proportions": 6.5
+    },
+    "40-49": {
+      "Unflattering cut & shape": 23.3,
+      "Sizing: runs small / large": 19.7,
+      "See-through / differs from photo": 12.2,
+      "Cheap fabric for the price": 10.9,
+      "Workmanship: buttons, zips, seams": 11.1,
+      "Sweaters: boxy, shrinks in the wash": 9.4,
+      "Pants & jeans fit": 7.6,
+      "Length & proportions": 5.8
+    },
+    "50-59": {
+      "Unflattering cut & shape": 23.6,
+      "Sizing: runs small / large": 20.9,
+      "See-through / differs from photo": 12.8,
+      "Cheap fabric for the price": 10.9,
+      "Workmanship: buttons, zips, seams": 9.7,
+      "Sweaters: boxy, shrinks in the wash": 8.5,
+      "Pants & jeans fit": 8.6,
+      "Length & proportions": 5.2
+    },
+    "60+": {
+      "Unflattering cut & shape": 20.9,
+      "Sizing: runs small / large": 21.1,
+      "See-through / differs from photo": 14.2,
+      "Cheap fabric for the price": 12.1,
+      "Workmanship: buttons, zips, seams": 10.0,
+      "Sweaters: boxy, shrinks in the wash": 9.6,
+      "Pants & jeans fit": 7.7,
+      "Length & proportions": 4.3
+    }
+  }
+}

@@ -1,0 +1,12 @@
+pandas==3.0.6
+openpyxl==3.1.5
+numpy==2.5.4
+matplotlib==3.11.2
+seaborn==0.13.2
+nltk==3.10.3
+scikit-learn==1.9.1
+vaderSentiment==3.3.2
+textstat==0.7.13
+wordcloud==1.9.6
+python-pptx==1.0.2
+notebook==7.6.3

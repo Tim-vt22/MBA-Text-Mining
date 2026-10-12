@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+~$*
+_test-*
+_render/
+# course material / old version (not part of this repo)
+1_Introduction.pptx
+Customer Review Analysis(1).pptx
+.claude/
